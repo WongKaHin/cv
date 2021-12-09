@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/cv.css">
+</head>
+<body>
+
+
+    <div class="left">   
+<div class="box1">
+  <img class = "me" src="photo/myphoto.png">
+    <div class = "name">黃迦軒</div>
+    <div class = "school">中原大學 資訊管理學系</div>
+    <div class="words">「嘗試才會有結果。」</div>
+</div>
+<div class="box2">
+    <span class="b2title">簡介</span><br><br>
+    <div>來自香港
+      <br>
+    Email : wongkahin1102@gmail.com
+  </div>
+</div>
+<div class="box3">
+<span class = "education">學歷</span>
+<br>
+<img class= "hkschool" src="photo/4064d40cae72311f.png">
+</div>
+<br>
+<div class="box4">
+<span class="contact">聯絡資訊</span>
+<br><br>
+  <img class = "FB" src="photo/facebook.png">
+  <a href="https://www.instagram.com/___blackson/"><img class = "ig" src="photo/instagram.png"></a>
+  <a href="https://github.com/WongKaHin"><img class = "github" src="photo/github.png"></a>
+</div>
+</div>
+
+
+<div class = "right">
+<div class="box5">
+<span class="skill">技能</span>
+<br>
+<br>
+<span>HTML</span>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+<span>CSS</span>
+<div class="container">
+  <div class="skills css">70%</div>
+</div>
+<span>JavaScript</span>
+<div class="container">
+  <div class="skills js">75%</div>
+</div>
+  <span>Python</span>
+<div class="container">
+    <div class="skills py">75%</div>
+  </div>
+</div>
+<div class="box6">
+  <span class="exp">經歷</span>
+  <br>
+  <br>
+  <span class="work">工作經驗</span>
+  <li>曾於美國冒險樂園兼職</li>
+  <li>曾於餐飲業兼職</li>
+  <br>
+  <span class="project">專案</span>
+  <br>
+    <button class="accordion">多媒體期中報告 - 圖書館介紹</button>
+    <div class="panel">
+      <p>利用魔法元素來介紹文靜的圖書館 , 同時魔法是一個令人有趣的題材 , 籍此吸引更多的人來到圖書館。</p>
+    </div>
+    <br>
+      <br><span class="class">課程</span>
+    
+      <br>
+      <button class="accordion">企業概論 — 豆志昂揚</button>
+      <div class="panel">
+        <p>透過企業概論來學如何賣出產品 , 還有把賺到的錢捐到對應的機構裡。達到在學習的同時做公益</p>
+      </div>
+      <br>
+      <button class="accordion">計概 - py爬蟲</button>
+      <div class="panel">
+        <p>利用爬蟲來收集每天會更變的資訊 , 並加以其他程式來完成他的功能。</p>
+      </div>
+    </div>
+</div>
+
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+</body>
+</html>

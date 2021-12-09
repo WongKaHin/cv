@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "標楷體";
+}
+body{
+    background-color: gray;
+}
+.left{
+    background-color: black;
+    width: 30%;
+    height: 110%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color:white;
+    text-align: center;
+}
+.right{
+    background-color: white;
+    position: absolute;
+    width:50%;
+    height: 110%;
+    top :5%;
+    left: 40%;
+}
+
+.box1{
+    margin-top: 5%;
+    text-align: center;
+}
+.me{
+    width: 30%;
+}
+.name{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.box2{
+    margin-top:5%;
+}
+span.b2title{
+    background-color: #708069;
+    color:white;
+    padding:5px;
+    border:2px;
+    border-radius:10px;
+}
+
+.education{
+    color:white;
+    background-color: #708069;
+    margin-top:10%;
+    padding:5px;
+    border:2px;
+    border-radius:10px;
+}
+
+.box3{
+margin-top: 4%;
+}
+.hkschool{
+    width:75%;
+}
+img{
+    width: 5%;
+    height: 5%;
+}
+.box4{
+    margin-top: 0%;
+}
+.contact{
+    color:white;
+    background-color: #708069;
+    padding:5px;
+    border:2px;
+    border-radius:10px;
+    }
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.box5{
+    width : 75%;
+    margin-left: 5%;
+    margin-top: 5%
+}
+.skill{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #708069;
+    padding:5px;
+    border:2px;
+    border-radius:10px;  
+}
+.box6{
+    width : 75%;
+    margin-left: 5%;
+    margin-top: 5%
+}
+.exp{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #708069;
+    margin-bottom: 50px;
+    padding:5px;
+    border:2px;
+    border-radius:10px;
+}
+p{
+font-size: 15px;
+}
+
+li{
+    font-size:20px;
+}
+
+.html {width: 90%; background-color: #f44336;}
+.css {width: 70%; background-color: #f44336;}
+.js {width: 75%; background-color: #f44336;}
+.py{width: 75%;background-color:#f44336;}
+
+.accordion {
+    background-color: #708069;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1px;
+    width: auto;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    border:2px;
+    border-radius:10px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
